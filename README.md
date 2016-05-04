@@ -1,5 +1,5 @@
 ### Scraping Baseball Projections for Fantasy Baseball
-Requires BeautifulSoup and pandas for python2.7.
+This was written prior to the 2016 season. It requires BeautifulSoup and pandas for python2.7.
 
 #### This utility does the following:
 * Scrapes Steamer, ZiPS, Fans projections from fangraphs.com
