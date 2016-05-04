@@ -116,8 +116,7 @@ def merge_rearrange_write(writer, df, razz_df, sheet_name, pos=None):
 		positions = ['C','1B','2B','3B','SS','OF']
 		for pos in positions:
 		    df.loc[:, pos] = df.loc[:, 'POS']\
-		    						.apply(lambda x: pos in [p.strip() \
-		    								for p in x.split(',')]).astype(int)
+                    .apply(lambda x: pos in [p.strip() for p in x.split(',')]).astype(int)
 		df.loc[:, 'DH'] = df.loc[:, positions].sum(axis = 1).apply(lambda x: 1 if x == 0 else 0)
 
 		for pos in positions:
