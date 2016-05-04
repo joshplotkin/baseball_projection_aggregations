@@ -13,7 +13,7 @@ This was written prior to the 2016 season. It requires BeautifulSoup and pandas 
 
 #### Run `python combine_rankings.py` with the following 6 command-line arguments:
 * 1. Scoring: 5x5 (AVG/HR/RBI/SB/R, W/SV/ERA/WHIP/K) or 6x6 (OBP/SLG/HR/RBI/SB/R, W/SV/ERA/WHIP/K) scoring
-* 2. League: AL, NL, or Both
+* 2. League: AL, NL, or BOTH
 * 3. Estimated number of SP rostered
 * 4. Estimated number of Batters rostered
 * 5. Estimated number of RP rostered
